@@ -4,6 +4,7 @@
     <div class="buttons">
       <button @click="toggleDone">{{ task.done ? 'Undo' : 'Done' }}</button>
       <button @click="removeTask" class="delete">Delete</button>
+      ><!--  rem. always use the camelCase here -->
     </div>
   </div>
 </template>
